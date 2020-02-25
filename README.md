@@ -1,5 +1,7 @@
 # Privacy-Preserving Face Recognition
 
+***25.02.2020:*** _Negative Face Recognition was added._
+
 ***17.12.2019:*** _Two more methods are currently under review and will be added as soon as they are accepted._
 
 This repository provides implementations of different supervised and unsupervised methods to enhance the soft-biometric privacy of face recognition models.
@@ -78,6 +80,29 @@ of estimating the soft private information in the data, while having signiﬁcan
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
+
+## Negative Face Recognition (unsupervised)
+* [Research Paper (arXiv)](https://arxiv.org/abs/2002.09181)
+* [Implementation](./unsupervised/negative_face_recognition/negative_face_recognition.py)
+* [Example](./unsupervised/negative_face_recognition/nfr_example.py)
+
+**Unsupervised Enhancement of Soft-biometric Privacy with Negative Face Recognition** 
+
+***Abstract*** 
+
+Current research on soft-biometrics showed that privacy-sensitive information can be deduced from biometric templates of an individual. Since for many applications, these templates are expected to be used for recognition purposes only, this raises major privacy issues. Previous works focused on supervised privacy-enhancing solutions that require privacy-sensitive information about individuals and limit their application to the suppression of single and pre-defined attributes. Consequently, they do not take into account attributes that are not considered in the training. In this work, we present Negative Face Recognition (NFR), a novel face recognition approach that enhances the soft-biometric privacy on the template-level by representing face templates in a complementary (negative) domain. While ordinary templates characterize facial properties of an individual, negative templates describe facial properties that does not exist for this individual. This suppresses privacy-sensitive information from stored templates. Experiments are conducted on two publicly available datasets captured under controlled and uncontrolled scenarios on three privacy-sensitive attributes. The experiments demonstrate that our proposed approach reaches higher suppression rates than previous work, while maintaining higher recognition performances as well. Unlike previous works, our approach does not require privacy-sensitive labels and offers a more comprehensive privacy-protection not limited to pre-defined attributes. 
+
+```
+@misc{terhrst2020unsupervised,
+    title={Unsupervised Enhancement of Soft-biometric Privacy with Negative Face Recognition},
+    author={Philipp Terhörst and Marco Huber and Naser Damer and Florian Kirchbuchner and Arjan Kuijper},
+    year={2020},
+    eprint={2002.09181},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
+
 
 ## Acknowledgement
  
