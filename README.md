@@ -106,7 +106,7 @@ Current research on soft-biometrics showed that privacy-sensitive information ca
 ```
 
 
-## Privacy-Enhancing Face Recognition based on Minimum Information Units (unsupervised & training-free)
+## Privacy-Enhancing Face Recognition based on Minimum Information Units (training-free)
 * [Research Paper (IEEE)](https://ieeexplore.ieee.org/document/9094207)
 * [Research Paper (ResearchGate)](https://www.researchgate.net/publication/341420117_PE-MIU_A_Training-Free_Privacy-Enhancing_Face_Recognition_Approach_Based_on_Minimum_Information_Units)
 * [Implementation](./training_free/pe_miu/privacy_enhancing_miu.py)
