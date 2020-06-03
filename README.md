@@ -88,7 +88,7 @@ of estimating the soft private information in the data, while having signiﬁcan
 * [Implementation](./unsupervised/negative_face_recognition/negative_face_recognition.py)
 * [Example](./unsupervised/negative_face_recognition/nfr_example.py)
 
-**Unsupervised Enhancement of Soft-biometric Privacy with Negative Face Recognition** 
+**Unsupervised Enhancement of Soft-biometric Privacy with Negative Face Recognition**, 2020 
 
 ***Abstract*** 
 
@@ -111,7 +111,7 @@ Current research on soft-biometrics showed that privacy-sensitive information ca
 * [Implementation](./unsupervised/training_free/pe_miu/privacy_enhancing_miu.py)
 * [Example](./unsupervised/training_free/pe_miu/example_pe_miu.py)
 
-**PE-MIU: A Training-Free Privacy-Enhancing Face Recognition Approach Based on Minimum Information Units**
+**PE-MIU: A Training-Free Privacy-Enhancing Face Recognition Approach Based on Minimum Information Units**, IEEE Access, 2020
 
 ***Abstract***
 
