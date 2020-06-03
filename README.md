@@ -88,7 +88,7 @@ of estimating the soft private information in the data, while having signiﬁcan
 * [Implementation](./unsupervised/negative_face_recognition/negative_face_recognition.py)
 * [Example](./unsupervised/negative_face_recognition/nfr_example.py)
 
-**Unsupervised Enhancement of Soft-biometric Privacy with Negative Face Recognition** 
+**Unsupervised Enhancement of Soft-biometric Privacy with Negative Face Recognition**, 2020 
 
 ***Abstract*** 
 
@@ -105,15 +105,17 @@ Current research on soft-biometrics showed that privacy-sensitive information ca
 }
 ```
 
-## Privacy-Enhancing Face Recognition based on Minimum Information Units (training-free)
-* [Research Paper (IEEE)] (https://ieeexplore.ieee.org/document/9094207)
-* [Research Paper (ResearchGate)] (https://www.researchgate.net/publication/341420117_PE-MIU_A_Training-Free_Privacy-Enhancing_Face_Recognition_Approach_Based_on_Minimum_Information_Units)
-* [Implementation] (./training_free/pe_miu/privacy_enhancing_miu.py)
-* [Example] (./training_free/pe_miu/example_pe_miu.py)
 
-**PE-MIU: A Training-Free Privacy-Enhancing Face Recognition Approach Based on Minimum Information Units**
+## Privacy-Enhancing Face Recognition based on Minimum Information Units (unsupervised & training-free)
+* [Research Paper (IEEE)](https://ieeexplore.ieee.org/document/9094207)
+* [Research Paper (ResearchGate)](https://www.researchgate.net/publication/341420117_PE-MIU_A_Training-Free_Privacy-Enhancing_Face_Recognition_Approach_Based_on_Minimum_Information_Units)
+* [Implementation](./unsupervised/training_free/pe_miu/privacy_enhancing_miu.py)
+* [Example](./unsupervised/training_free/pe_miu/example_pe_miu.py)
+
+**PE-MIU: A Training-Free Privacy-Enhancing Face Recognition Approach Based on Minimum Information Units**, IEEE Access, 2020
 
 ***Abstract***
+
 Research on soft-biometrics showed that privacy-sensitive information can be deduced from biometric data. Utilizing biometric templates only, information about a persons gender, age, ethnicity, sexual orientation, and health state can be deduced. For many applications, these templates are expected to be used for recognition purposes only. Thus, extracting this information raises major privacy issues. Previous work proposed two kinds of learning-based solutions for this problem. The first ones provide strong privacy-enhancements, but limited to pre-defined attributes. The second ones achieve more comprehensive but weaker privacy-improvements. In this work, we propose a Privacy-Enhancing face recognition approach based on Minimum Information Units (PE-MIU). PE-MIU, as we demonstrate in this work, is a privacy-enhancement approach for face recognition templates that achieves strong privacy-improvements and is not limited to pre-defined attributes. We exploit the structural differences between face recognition and facial attribute estimation by creating templates in a mixed representation of minimal information units. These representations contain pattern of privacy-sensitive attributes in a highly randomized form. Therefore, the estimation of these attributes becomes hard for function creep attacks. During verification, these units of a probe template are assigned to the units of a reference template by solving an optimal best-matching problem. This allows our approach to maintain a high recognition ability. The experiments are conducted on three publicly available datasets and with five state-of-the-art approaches. Moreover, we conduct the experiments simulating an attacker that knows and adapts to the systems privacy mechanism. The experiments demonstrate that PE-MIU is able to suppress privacy-sensitive information to a significantly higher degree than previous work in all investigated scenarios. At the same time, our solution is able to achieve a verification performance close to that of the unmodified recognition system. Unlike previous works, our approach offers a strong and comprehensive privacy-enhancement without the need of training.
 
 
