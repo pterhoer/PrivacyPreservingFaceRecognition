@@ -123,7 +123,7 @@ Research on soft-biometrics showed that privacy-sensitive information can be ded
 @article{9094207,
   author={P. {Terhörst} and K. {Riehl} and N. {Damer} and P. {Rot} and B. {Bortolato} and F. {Kirchbuchner} and V. {Struc} and A. {Kuijper}},
   journal={IEEE Access}, 
-  title={PE-MIU: A Training-Free Privacy-Enhancing Face Recognition Approach Based on Minimum Information Units}, 
+  title={{PE-MIU}: A Training-Free Privacy-Enhancing Face Recognition Approach Based on Minimum Information Units}, 
   year={2020},
   volume={8},
   number={},
